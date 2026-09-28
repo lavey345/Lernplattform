@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "mathe-lineare-funktionen-gleichung-01",
+  "subject": "Mathematik",
+  "topic": "Lineare Funktionen",
+  "title": "Funktionswert berechnen",
+  "difficulty": "mittel",
+  "type": "short-answer",
+  "prompt": "Berechne den Funktionswert von f(x) = 2x + 1 an der Stelle x = 4.",
+  "solution": { "acceptedAnswer": "9", "explanation": "Setze x = 4 ein: f(4) = 2 · 4 + 1 = 9." },
+  "tags": ["funktionswert", "einsetzen"],
+  "source": { "material": null, "generatedAt": "2026-09-28", "reviewed": true }
+}
