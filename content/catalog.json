@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "exercises": [
+    "content/mathematik/lineare-funktionen/exercises/steigung-01.json",
+    "content/mathematik/lineare-funktionen/exercises/gleichung-01.json"
+  ]
+}
