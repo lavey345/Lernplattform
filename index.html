@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Lernplattform</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Meine Lernplattform</p>
+      <h1>Üben, verstehen, wiederholen.</h1>
+      <p>Wähle ein Thema und bearbeite die Aufgaben in deinem Tempo.</p>
+    </header>
+    <main>
+      <section class="toolbar" aria-label="Übungen filtern">
+        <label>Fach <select id="subject-filter"><option value="">Alle Fächer</option></select></label>
+        <label>Schwierigkeit <select id="difficulty-filter"><option value="">Alle Stufen</option><option value="leicht">Leicht</option><option value="mittel">Mittel</option><option value="schwer">Schwer</option></select></label>
+        <p id="progress" aria-live="polite"></p>
+      </section>
+      <section id="exercise-list" class="exercise-list" aria-live="polite"></section>
+    </main>
+    <template id="exercise-template">
+      <article class="exercise-card">
+        <div class="exercise-meta"></div>
+        <h2></h2>
+        <p class="prompt"></p>
+        <form class="answer-area"></form>
+        <p class="feedback" aria-live="polite"></p>
+        <details class="solution"><summary>Lösung anzeigen</summary><div></div></details>
+      </article>
+    </template>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
