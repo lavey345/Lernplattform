@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "mathe-lineare-funktionen-steigung-01",
+  "subject": "Mathematik",
+  "topic": "Lineare Funktionen",
+  "title": "Steigung ablesen",
+  "difficulty": "leicht",
+  "type": "multiple-choice",
+  "prompt": "Die Gerade steigt um 6 Einheiten, wenn man 3 Einheiten nach rechts geht. Welche Steigung hat sie?",
+  "choices": ["1/2", "2", "3", "9"],
+  "solution": { "correctChoice": 1, "explanation": "Die Steigung ist Anstieg durch Lauf: 6 ÷ 3 = 2." },
+  "tags": ["steigung", "grundlagen"],
+  "source": { "material": null, "generatedAt": "2026-09-28", "reviewed": true }
+}
