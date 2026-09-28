@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "fach-thema-eindeutige-kennung",
+  "subject": "Fach",
+  "topic": "Thema",
+  "title": "Kurzer Aufgabentitel",
+  "difficulty": "leicht",
+  "type": "short-answer",
+  "prompt": "Aufgabenstellung",
+  "solution": { "acceptedAnswer": "Musterantwort", "explanation": "Erklärung der Lösung in verständlichen Schritten." },
+  "tags": ["stichwort"],
+  "source": { "material": "materials/fach/thema/datei.pdf", "generatedAt": "YYYY-MM-DD", "reviewed": false }
+}
